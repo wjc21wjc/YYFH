@@ -1,0 +1,52 @@
+//
+//  PrefixHeader.pch
+//  YYFH
+//
+//  Created by gzfw on 2017/10/10.
+//  Copyright © 2017年 gzfw. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+/**
+ *  1.返回一个RGBA格式的UIColor对象
+ */
+#define RGBA(r, g, b, a) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
+
+/**
+ *  2.返回一个RGB格式的UIColor对象
+ */
+#define RGB(r, g, b)   RGBA(r, g, b, 1.0f)
+#define WMBackgroundColor   RGB(181, 165, 127 )           // 背景颜色
+#define WMMerchantColor   RGB(239, 239, 244)              // 浅灰色背景颜色
+#define WMViewColor   RGB(231, 219, 181)                  // view颜色
+#define WMLabelColorWhite  RGB(255, 255, 255)             // 字体颜色：白色
+#define WMLabelColorGray  [UIColor grayColor]             // 字体颜色：灰色
+#define WMLabelColorGrayB  RGB(106, 106, 106)             // 字体颜色：暗灰色
+#define WMCoverViewColor  RGBA(0, 0, 0, 0.2)              // 黑色半透明遮盖
+#define WMCoverViewColorB  RGBA(0, 0, 0, 0)               // 透明遮盖
+#define WMCoverViewBlack  RGB(45, 62, 72)                 // 黑色遮盖
+#define WMTabBarNormalColor  RGB(170, 170, 170)           // TabBar颜色
+#define WMThemeColor  RGB(249, 103, 80)                   // TabBar选中颜色
+#define WMFontColor        RGB(5, 63, 76)                 // 登录界面字体颜色
+#define WMNavigationColor  RGB(45, 45, 47)                // 导航栏
+#define GZButtonColor      RGB(220, 220, 220)               // 灰色按钮颜色(#DCDCDC)
+#define GZWireColor        RGB(226, 226, 226)               // 线颜色(#E2E2E2)
+#define WMRedColor         RGB(253, 81, 81)                 // 红色字体
+#define GZViewColor        [UIColor colorWithRed:0.92 green:0.92 blue:0.92 alpha:1]    //页面背景灰色
+#define GZSegmentColor     RGB(90, 197, 179)                //分段选择颜色（#5ac5b3）
+#define GZOrangeColor      [UIColor colorWithRed:0.89 green:0.67 blue:0.34 alpha:1]    //橙色按钮颜色
+#define GZFont9Color             RGB(153, 153, 153)         //分段选择灰色字体颜色（#999999）
+#define GZSegmentLineColor       RGB(219, 219, 219)         //分段选择描边颜色
+#define GZFont3Color        RGB(51, 51, 51)                 //字体颜色（#333333）
+#define GZFont6Color        RGB(102, 102, 102)              //字体颜色（#666666）
+#define GZLightColor        RGB(241, 241, 241)              //字体颜色（#f1f1f1）
+#ifdef DEBUG
+#   define DTLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ## __VA_ARGS__);
+#else
+#   define DTLog(...)
+#endif
+
+
+#endif /* PrefixHeader_pch */
