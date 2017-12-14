@@ -1,6 +1,10 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
+## RongCloudIM
+
+Copyright 2014 Rong Cloud
+
 ## YYKit
 
 The MIT License (MIT)

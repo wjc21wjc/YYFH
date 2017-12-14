@@ -22,6 +22,7 @@
 		3A468F261F8C95F400CB8A2C /* HUAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A468F251F8C95F400CB8A2C /* HUAViewController.m */; };
 		3A468F291F8C967E00CB8A2C /* YYFHNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A468F281F8C967E00CB8A2C /* YYFHNavigationController.m */; };
 		3A468F2C1F8C96FE00CB8A2C /* YYFHTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A468F2B1F8C96FE00CB8A2C /* YYFHTabBarController.m */; };
+		3A50D2501FBAD49A0022AE8A /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A50D24F1FBAD49A0022AE8A /* data.json */; };
 		3A585CD01F99F2810094E9DE /* lottie_data_edit.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A585CCF1F99F2810094E9DE /* lottie_data_edit.json */; };
 		C7129036F4409294B753A8C8 /* libPods-YYFH.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39AF3A1E86F6A9F42EA80524 /* libPods-YYFH.a */; };
 /* End PBXBuildFile section */
@@ -76,6 +77,7 @@
 		3A468F2A1F8C96FE00CB8A2C /* YYFHTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFHTabBarController.h; sourceTree = "<group>"; };
 		3A468F2B1F8C96FE00CB8A2C /* YYFHTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFHTabBarController.m; sourceTree = "<group>"; };
 		3A468F2D1F8C976200CB8A2C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		3A50D24F1FBAD49A0022AE8A /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		3A585CCF1F99F2810094E9DE /* lottie_data_edit.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lottie_data_edit.json; sourceTree = "<group>"; };
 		9E18143770CFF4E0EFC26EC2 /* Pods-YYFH.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYFH.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YYFH/Pods-YYFH.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -312,6 +314,7 @@
 		3A468F0F1F8C954C00CB8A2C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				3A50D24F1FBAD49A0022AE8A /* data.json */,
 				3A585CCF1F99F2810094E9DE /* lottie_data_edit.json */,
 				3A468F1B1F8C95C700CB8A2C /* YIViewController.h */,
 				3A468F1C1F8C95C700CB8A2C /* YIViewController.m */,
@@ -517,6 +520,7 @@
 				3A585CD01F99F2810094E9DE /* lottie_data_edit.json in Resources */,
 				3A468EDC1F8C913600CB8A2C /* LaunchScreen.storyboard in Resources */,
 				3A468ED91F8C913600CB8A2C /* Assets.xcassets in Resources */,
+				3A50D2501FBAD49A0022AE8A /* data.json in Resources */,
 				3A468ED41F8C913600CB8A2C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

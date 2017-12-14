@@ -16,8 +16,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    LOTAnimationView *animation = [LOTAnimationView animationNamed:@"lottie_data_edit"];
+    LOTAnimationView *animation = [LOTAnimationView animationNamed:@"data"];
     animation.frame = CGRectMake(0, 0, 300, 300);
+    animation.loopAnimation =  YES;
+    animation.animationSpeed = 10;
+    animation.animationProgress = 10;
     [self.view addSubview:animation];
     [animation playWithCompletion:^(BOOL animationFinished) {
         DTLog(@"动画执行完了");
